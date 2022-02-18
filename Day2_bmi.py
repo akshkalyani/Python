@@ -1,0 +1,5 @@
+height = input("Enter your height in centimeters: ")
+weight = input("\nEnter you weight in KGs: ")
+bmi = int(weight)/((int(height)/100)**2)
+bmi= round(bmi)
+print("Your BMI is " + str(bmi))
